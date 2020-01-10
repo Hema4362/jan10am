@@ -12,7 +12,7 @@ public class Editorial {
 		driver.get("https://www.gettyimages.in/");
 		WebElement editorial=driver.findElement(By.xpath("//a[@data-nav='nav_Editorial']"));
 		editorial.click();
-		
+		System.out.println("done");
 	}
 
 }
