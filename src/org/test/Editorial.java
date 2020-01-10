@@ -12,8 +12,7 @@ public class Editorial {
 		driver.get("https://www.gettyimages.in/");
 		WebElement editorial=driver.findElement(By.xpath("//a[@data-nav='nav_Editorial']"));
 		editorial.click();
-		WebElement entertainment=driver.findElement(By.xpath("//a[contains(text(),'Entertainment')]"));
-		entertainment.click();
+		
 	}
 
 }
